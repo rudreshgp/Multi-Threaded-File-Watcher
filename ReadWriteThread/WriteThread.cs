@@ -2,11 +2,10 @@ using System.Collections.Concurrent;
 using System.IO;
 using Newtonsoft.Json;
 
-
 namespace WriteReadSameFileThreading.ReaWriteThred
 {
     //  Summary:
-    ///     Seariylizes objects in the BlockingCollection using Newtonsoft.Json and writes the serialized content to output file
+    //      Searializes objects in the BlockingCollection using Newtonsoft.Json and writes the serialized content to output file
     //  Parameters:
     //      T:
     //          Type of the object stored in the queue
@@ -22,7 +21,7 @@ namespace WriteReadSameFileThreading.ReaWriteThred
 
         //  Summary:
         //      Initializes write thread with the queue and the output filename
-        // Parameters:
+        //  Parameters:
         //      writeBlockingCollection:
         //          BlockingCollection from which objects need to be peeked
         //      outputFileName:
