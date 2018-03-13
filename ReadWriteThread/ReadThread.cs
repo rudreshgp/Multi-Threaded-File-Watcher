@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Concurrent;
 using System.IO;
 using System.Threading;
@@ -37,7 +38,7 @@ namespace WriteReadSameFileThreading.ReaWriteThred
         {
             _blockingCollection = blockingCollection;
             _inputFileName = inputFileName;
-            _fileFolder = fileFolder ?? @".\\";
+            _fileFolder = fileFolder ?? AppContext.BaseDirectory;
         }
 
         //  Summary:
