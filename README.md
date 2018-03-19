@@ -36,4 +36,5 @@ readThread.Start();
 ## Sample Application
 A sample read and write thread is created in `Program.cs` file.
 
-  
+## Contribution
+I will be very much happy if you want to add new features, please create a pull request or if any issues please log them.
